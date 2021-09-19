@@ -5,6 +5,7 @@ import ProjectDetails from './projects/ProjectDetails';
 import ProjectList from './projects/ProjectList';
 import Signin from './auth/Signin';
 import Signup from './auth/Signup'
+import Error from './layout/Invalid';
 import CreateProject from './projects/CreateProject';
 
 
@@ -19,6 +20,7 @@ function App() {
       <Route path="/signin" component={Signin}/>
       <Route path="/signup" component={Signup}/>
       <Route path="/create" component={CreateProject}/>
+      <Route path="/invalid" component={Error}/>
 
     </Switch>
     </div>
